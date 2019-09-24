@@ -1,0 +1,144 @@
+html {
+    scroll-behavior: smooth;
+  }
+#hero{
+    background: url("../img/FreeVector-Lighthouse-Vector-Background.jpg")  no-repeat center center fixed;
+    background-size: cover;
+    background-position: fixed;
+    color:white;
+    height: 100vh;
+}
+.blankback{
+    
+    background-color: rgb(7, 7, 61,0.3);
+
+    height: 100vh;
+}
+.nothing{
+    width: 100%;
+    height: 25vh;
+}
+.nothing2{
+    width:100% ;
+    height:40vh;
+}
+#workshops{
+    overflow: hidden;
+    background-color: #fff;
+
+}
+.finger{
+    font-family: 'Finger Paint';
+}
+.border-top{
+    border-top: 1px solid rgba(0 ,0,0,.4);
+}
+.ct-btn-scroll {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 500px;
+    z-index: 9;
+    border-radius: 50%;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+  }
+#part{
+  width: 100px;
+height: 100px;
+text-align: center;
+}
+.main h1{
+    font-family: 'Bungee', cursive;
+
+}
+.work{
+    height: auto;
+    color:white;
+    background: url("../img/work.jpg");
+background-size: cover;
+    text-align: center;
+
+
+
+}
+.boat{
+    animation: ship 3s linear infinite;
+}
+@keyframes ship{
+	0%{
+		transform: rotate(0);
+	}
+
+	50%{
+		transform: rotate(-5deg);
+	}
+
+	100%{
+		transform: rotate(0);
+	}
+}
+.committee{
+padding:5%;
+margin-bottom: auto;
+}
+
+.content{
+    background-color: darkgray;
+
+
+}
+.work h3{
+        transition: 1s ease-in;
+
+}
+.work h3:hover{
+    transform: scale(1.2);
+}
+
+.padding{
+    padding-top:10% 0;
+}
+h3{
+  font-family: 'Finger Paint';font-size: 36px;
+
+}
+
+@media (max-width:1199px)
+{
+    /* .promotion{
+        padding-bottom: 25px;
+    } */
+    .marginsmall
+    {
+        margin-top:0 !important;
+    }
+}
+@media (max-width:767px)
+{
+    .promotion{
+        padding-bottom: 0px !important;
+    }
+    .card{
+        height:auto !important;
+    }
+    .committee{
+        padding: 10% !important;
+    }
+ 
+}
+/* @media (max-width:667px){
+    .nothing
+    {
+        height: 10vh;
+    }
+} */
+@media (max-width:320px){
+    .nothing{
+        height: 2vh;
+    }
+}
